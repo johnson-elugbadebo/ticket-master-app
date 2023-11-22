@@ -1,0 +1,12 @@
+{
+	"name": "practice16-redux-mern-gray",
+	"version": "1.0.0",
+	"description": "ticketMaster MERN Project",
+	"main": "index.js",
+	"scripts": {
+		"setup-production-app": "cd server && npm i && cd .. && cd client && npm i && npm run build",
+		"start": "cd server && npm start"
+	},
+	"author": "Johnson Elugbadebo",
+	"license": "BSD-3-Clause"
+}
