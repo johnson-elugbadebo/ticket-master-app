@@ -3,7 +3,7 @@ import { setCredentials } from '../features/auth/authSlice';
 
 // Adding accessToken to Data Fetching Workflow
 const baseQuery = fetchBaseQuery({
-	baseUrl: 'http://localhost:5000/',
+	baseUrl: 'https://ticket-master-app-a9h7.onrender.com',
 	credentials: 'include', // this always includes the secure httpOnly cookie
 	prepareHeaders: (headers, { getState }) => {
 		const token = getState().auth.token;
